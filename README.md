@@ -4,9 +4,9 @@
 
 This project analyzes the Brazilian E-Commerce Public Dataset by Olist to understand business performance, revenue trends, customer behaviour, product performance, payment methods, delivery performance, and customer reviews.
 
-The project uses Python for data cleaning, exploratory data analysis, and business analysis, MySQL for database storage and SQL analysis, and Power BI for dashboard development.
+Python is used for data cleaning, exploratory data analysis, and business analysis. MySQL is used for database management and SQL analysis, while Power BI is used to build an interactive business dashboard.
 
-**Note:** The business analysis and dashboard focus on delivered orders only.
+**Note:** Business analysis and dashboard metrics focus on delivered orders only.
 
 ## Tools & Technologies
 
@@ -23,7 +23,7 @@ The project uses Python for data cleaning, exploratory data analysis, and busine
 ## Project Structure
 
 ```text
-ecommerce-intelligence-/
+ecommerce-intelligence/
 │
 ├── data/
 │   ├── raw/
@@ -33,9 +33,16 @@ ecommerce-intelligence-/
 │   ├── 01_data_understanding.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_exploratory_data_analysis.ipynb
+│   ├── 04_data_preprocessing.ipynb
 │   └── 05_business_analysis.ipynb
 │
 ├── sql/
+│   ├── 01_database_setup.sql
+│   ├── 02_table_creation.sql
+│   ├── 03_data_import.sql
+│   ├── 04_basic_analysis.sql
+│   └── 05_intermediate_analysis.sql
+│
 ├── dashboard/
 │   └── Olist_Ecommerce_Analytics_Dashboard.pbix
 │
@@ -46,19 +53,25 @@ ecommerce-intelligence-/
 
 ## Project Workflow
 
-1. **Data Understanding:** Explored the available datasets, columns, and data types.
-2. **Data Cleaning:** Handled missing values, duplicates, data types, and inconsistencies.
-3. **Exploratory Data Analysis:** Examined sales, products, customers, payments, reviews, sellers, and delivery data.
-4. **Business Analysis:** Analyzed revenue trends, top-performing product categories, customer activity, payment methods, and delivery performance.
-5. **SQL:** Stored and queried the processed datasets using MySQL.
-6. **Power BI Dashboard:** Created a dashboard to present key business metrics and findings.
+1. **Data Understanding:** Explored the datasets, columns, data types, and overall structure.
+2. **Data Cleaning:** Handled missing values, duplicates, data types, and data inconsistencies.
+3. **Exploratory Data Analysis:** Explored sales, customers, products, payments, reviews, sellers, and delivery data.
+4. **Data Preprocessing:** Prepared and combined datasets for business analysis.
+5. **Business Analysis:** Analyzed revenue trends, top-performing product categories, customer activity, payment methods, and delivery performance.
+6. **SQL Analysis:** Created the MySQL database and tables, imported datasets, and performed basic and intermediate SQL analysis.
+7. **Power BI Dashboard:** Built a dashboard to visualize key business metrics and business performance.
 
 ## Dashboard Highlights
+
+### Key Performance Indicators
 
 - Total Revenue
 - Total Orders
 - Average Order Value
 - Total Customers
+
+### Business Visualizations
+
 - Monthly Revenue Trend
 - Top 10 Categories by Revenue
 - Payment Method Distribution
