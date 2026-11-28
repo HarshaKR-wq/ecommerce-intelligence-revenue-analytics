@@ -4,9 +4,9 @@
 
 This project analyzes the Brazilian E-Commerce Public Dataset by Olist to understand business performance, revenue trends, customer behaviour, product performance, payment methods, delivery performance, and customer reviews.
 
-Python is used for data cleaning, exploratory data analysis, and business analysis. MySQL is used for database management and SQL analysis, while Power BI is used to build an interactive business dashboard.
+The project uses Python for data cleaning, exploratory data analysis, and business analysis, MySQL for database management and SQL analysis, and Power BI for interactive dashboard development.
 
-**Note:** Business analysis and dashboard metrics focus on delivered orders only.
+**Note:** All business analysis metrics and dashboard visualizations focus on delivered orders only.
 
 ## Tools & Technologies
 
@@ -46,22 +46,60 @@ ecommerce-intelligence/
 ├── dashboard/
 │   └── Olist_Ecommerce_Analytics_Dashboard.pbix
 │
-├── reports/
 ├── images/
+│   └── dashboard_overview.png
+│
+├── reports/
+│
 └── README.md
 ```
 
 ## Project Workflow
 
-1. **Data Understanding:** Explored the datasets, columns, data types, and overall structure.
-2. **Data Cleaning:** Handled missing values, duplicates, data types, and data inconsistencies.
-3. **Exploratory Data Analysis:** Explored sales, customers, products, payments, reviews, sellers, and delivery data.
-4. **Data Preprocessing:** Prepared and combined datasets for business analysis.
-5. **Business Analysis:** Analyzed revenue trends, top-performing product categories, customer activity, payment methods, and delivery performance.
-6. **SQL Analysis:** Created the MySQL database and tables, imported datasets, and performed basic and intermediate SQL analysis.
-7. **Power BI Dashboard:** Built a dashboard to visualize key business metrics and business performance.
+### 1. Data Understanding
+- Explored the available datasets.
+- Examined columns, data types, and dataset structure.
+- Identified important business data.
 
-## Dashboard Highlights
+### 2. Data Cleaning
+- Handled missing values.
+- Checked duplicate records.
+- Corrected data types.
+- Identified and handled data inconsistencies.
+
+### 3. Exploratory Data Analysis (EDA)
+- Explored sales and revenue patterns.
+- Analyzed customer and product information.
+- Examined payment methods and reviews.
+- Explored seller and delivery information.
+
+### 4. Data Preprocessing
+- Prepared datasets for analysis.
+- Combined relevant datasets.
+- Created processed datasets for business analysis.
+
+### 5. Business Analysis
+- Analyzed total revenue and order performance.
+- Identified top-performing product categories.
+- Examined customer purchasing behaviour.
+- Analyzed payment methods.
+- Evaluated delivery performance.
+- Examined customer review ratings.
+
+### 6. SQL Analysis
+- Created the MySQL database.
+- Created database tables.
+- Imported datasets into MySQL.
+- Performed basic and intermediate SQL analysis.
+
+### 7. Power BI Dashboard
+Developed an interactive dashboard to present key business metrics and visualizations.
+
+## Power BI Dashboard
+
+### Dashboard Preview
+
+![Olist E-Commerce Power BI Dashboard](images/dashboard_overview.png)
 
 ### Key Performance Indicators
 
@@ -70,7 +108,7 @@ ecommerce-intelligence/
 - Average Order Value
 - Total Customers
 
-### Business Visualizations
+### Visualizations
 
 - Monthly Revenue Trend
 - Top 10 Categories by Revenue
@@ -82,7 +120,7 @@ ecommerce-intelligence/
 
 The analysis focuses on delivered orders to provide a consistent view of completed sales and business performance.
 
-Detailed findings can be added here as the project results are documented.
+The project explores revenue trends, product category performance, customer behaviour, payment preferences, delivery performance, and customer satisfaction.
 
 ## How to Explore the Project
 
